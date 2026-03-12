@@ -1,6 +1,6 @@
 # Vivrelle Take Home Assessment
 
-## Installation (Windows)
+## Installation
 
 This project runs on Python, Django, and Django REST Framework.
 Start by creating your virtual environment
