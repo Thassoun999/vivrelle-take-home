@@ -1,0 +1,21 @@
+Pre:
+
+1) Review django-admin and the django-admin startproject command to make the api dir
+2) Review the python manage.py startapp to create app within api dir
+3) Register the app and the rest framework in settings.py INSTALLED_APPS
+4) migrate and runserver with manage.py for sanity check
+
+Body:
+
+A collection of folders and files (with the folders having init.py) are present in rentals
+
+1) models.py defines our models for databases -- see djando db models
+2) services.py defines the logic that interacts with models.py and is called by our views.py (raise exceptions here)
+3) views.py defines rest endpoints, what service methods they call, and their response (return status codes and exceptions if present)
+4) I put my tests in a test folder but we could have just put it in tests.py
+5) admin.py registers model views
+6) urls.py defines urls and their connections to their views
+7) serializers.py defines return serializers for easy json frontend reading
+
+8) within the root urls.py make sure to add the "api/" endpoint and say which urls file it includes to (what app? in this case rentals)
+9) /admin takes you to admin view where you can see db models and entries

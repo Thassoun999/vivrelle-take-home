@@ -56,5 +56,5 @@ API is available at `http://127.0.0.1:8000/api/`
 Test using
 
 ```
-python manage.py test tests
+python manage.py test rentals.tests
 ```
