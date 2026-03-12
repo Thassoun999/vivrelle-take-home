@@ -1,0 +1,86 @@
+{
+  "items": [
+    { "id": "item-001", "name": "Marevelle Tote", "tier": "premier" },
+    { "id": "item-002", "name": "Lunaire Crossbody", "tier": "premier" },
+    { "id": "item-003", "name": "Marevelle Clutch", "tier": "premier" },
+    { "id": "item-004", "name": "Solène Shoulder Bag", "tier": "classique" },
+    { "id": "item-005", "name": "Vellori Flap Bag", "tier": "classique" },
+    { "id": "item-006", "name": "Solène Mini Bucket", "tier": "classique" },
+    { "id": "item-007", "name": "Auréne Chain Bag", "tier": "couture" },
+    { "id": "item-008", "name": "Auréne Structured Satchel", "tier": "couture" },
+    { "id": "item-009", "name": "Vellori Evening Clutch", "tier": "couture" }
+  ],
+
+  "users": [
+    {
+      "id": "user-001",
+      "name": "Alice Martin",
+      "email": "alice@example.com",
+      "plan": "premier",
+      "closet": []
+    },
+    {
+      "id": "user-002",
+      "name": "Jordan Holloway",
+      "email": "jordan@example.com",
+      "plan": "premier",
+      "closet": ["item-001"]
+    },
+    {
+      "id": "user-003",
+      "name": "Marcus Dupont",
+      "email": "marcus@example.com",
+      "plan": "classique",
+      "closet": []
+    },
+    {
+      "id": "user-004",
+      "name": "Diana Ferreira",
+      "email": "diana@example.com",
+      "plan": "classique",
+      "closet": ["item-004"]
+    },
+    {
+      "id": "user-005",
+      "name": "Riley Vasquez",
+      "email": "riley@example.com",
+      "plan": "couture",
+      "closet": []
+    },
+    {
+      "id": "user-006",
+      "name": "Fatima Al-Rashid",
+      "email": "fatima@example.com",
+      "plan": "couture",
+      "closet": ["item-007"]
+    },
+    {
+      "id": "user-007",
+      "name": "Theo Kim",
+      "email": "theo@example.com",
+      "plan": "couture_plus",
+      "closet": []
+    },
+    {
+      "id": "user-008",
+      "name": "Helena Osei",
+      "email": "helena@example.com",
+      "plan": "couture_plus",
+      "closet": ["item-008"]
+    },
+    {
+      "id": "user-009",
+      "name": "Alex Nkrumah",
+      "email": "alex@example.com",
+      "plan": "couture_plus",
+      "closet": ["item-009", "item-004"]
+    },
+    {
+      "id": "user-010",
+      "name": "Julia Brennan",
+      "email": "julia@example.com",
+      "plan": "couture_plus",
+      "closet": ["item-001", "item-002"]
+    }
+  ]
+}
